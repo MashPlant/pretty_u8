@@ -1,0 +1,1 @@
+Function `pretty_u8` transform a byte to the string representation of it. For more details, please refer to the documentation of it.
