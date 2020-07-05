@@ -16,7 +16,8 @@ use std::fmt;
 /// 4. If it is a alphanumeric ascii character, return `"{char value of it}"`.
 pub fn pretty_u8(x: u8) -> &'static str {
   match x {
-    0 => "0u8", 1 => "1u8", 2 => "2u8", 3 => "3u8", 4 => "4u8", 5 => "5u8", 6 => "6u8", 7 => "7u8", 8 => "8u8",
+    0 => r"\\0",
+    1 => "1u8", 2 => "2u8", 3 => "3u8", 4 => "4u8", 5 => "5u8", 6 => "6u8", 7 => "7u8", 8 => "8u8",
     9 => r"\\t", 10 => r"\\n",
     11 => "11u8", 12 => "12u8",
     13 => r"\\r",
