@@ -1,6 +1,5 @@
-#![feature(external_doc)]
+#![doc = include_str!("../readme.md")]
 #![deny(missing_docs)]
-#![doc(include = "../readme.md")]
 
 use std::fmt;
 
